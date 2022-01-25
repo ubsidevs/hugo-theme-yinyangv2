@@ -11,13 +11,9 @@
 - Display optimization for smaller screens ( Responsive )
 - Added FiraCode font for Syntax Highlighter
 
-## 📷 Screenshots
+## 📷 Screenshots 
 
-![](![image](https://user-images.githubusercontent.com/62005221/150907560-a00aef6c-f7bb-4cdb-8731-711cf76fe081.png)
-)  
-
-![](![image](https://user-images.githubusercontent.com/62005221/150907642-aac4cfae-0f92-4ecc-93d5-fbff01a903e8.png)
-)
+![image](https://user-images.githubusercontent.com/62005221/150907642-aac4cfae-0f92-4ecc-93d5-fbff01a903e8.png)
 
 ## ⚙ Installation
 
