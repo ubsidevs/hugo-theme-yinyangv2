@@ -1,0 +1,44 @@
+baseURL = "https://example.com"
+languageCode = "id-ID"
+title = "Example Blog"
+theme = "yunyangv2"
+DefaultContentLanguage = "id"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
+
+[author]
+  name = "andikatulusp & Joway Wang"
+  homepage = "https://gohugo.io"
+
+[params]
+mainSections = ["posts"]
+headTitle = "Yinyang V2"
+description = "redesign with ❤️️ from 🇮"
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+
+[[params.socials]]
+name = "🏠 Beranda"
+link = "https://bio.link/andikatulusp"
+
+[[params.socials]]
+name = "👦 Penulis"
+link = "https://bio.link/andikatulusp"
+
+[[params.socials]]
+name = "🤝 Kontribusi"
+link = "https://github.com/joway/hugo-theme-yinyang"
+
+
+[languages]
+  [languages.id]
+    contentDir = "content/id"
+    languageName = "Indonesia"
+    weight = 1
