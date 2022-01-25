@@ -2,7 +2,7 @@
 
 - Name    : YinYang V2  
 - Based   : [YinYang Theme](https://github.com/joway/hugo-theme-yinyang)  
-- Demo V2 : [Demo](https://bucin-kode.github.io) ub.io)  
+- Demo V2 : [Demo](https://bucin-kode.github.io)
 
 ## 🔎 Feature in V2 Version
 
