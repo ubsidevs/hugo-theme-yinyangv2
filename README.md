@@ -1,32 +1,33 @@
-# YinYang
+# YinYang V2 - Hugo Fast Theme
 
-[YinYang](https://en.wikipedia.org/wiki/Yin_and_yang) is a black-white theme for [Hugo](https://gohugo.io/).
+Name    : YinYang V2
+Based   : [YinYang Theme](https://github.com/joway/hugo-theme-yinyang)
+Demo V2 : [Demo](https://bucin-kode.github.io)
 
-[**Demo**](https://blog.joway.io)
+## Feature in V2 Version
 
-## Feature
-
-- minimalist
-- multi-language support
-- [disqus](https://disqus.com) support
-- [SEO Optimization](https://github.com/joway/hugo-theme-yinyang/blob/master/layouts/partials/seo.html)
+- Minimalist dark colors, using the color palette from Github Dark Theme
+- Now comment platform using [utteranc.es](https://utteranc.es/)
+- Display optimization for smaller screens ( Responsive )
+- Added FiraCode font for Syntax Highlighter
 
 ## Screenshot
 
-![](./images/screenshot.png)
+![Screnshoot Home Page Yinyang V2 from Smartphone]()
+![Screnshoot Home Page Yinyang V2 from Tab]()
 
 ## Installation
 
 From the root of your site:
 
 ```shell
-git clone git@github.com:joway/hugo-theme-yinyang.git themes/yinyang
+git clone https://github.com/bucin-kode/hugo-theme-yinyangv2.git themes/yinyang
 ```
 
 Change `config.toml`:
 
 ```toml
-theme = "yinyang"
+theme = "yinyangv2"
 ```
 
 ## Configuration
@@ -35,7 +36,7 @@ theme = "yinyang"
 
 ```
 [params]
-headTitle = "Joway Wang"
+headTitle = "Yinyang V2"
 ```
 
 If there is no `headTitle` in params, use `.Site.Author.name`.
@@ -61,101 +62,12 @@ mainSections = ["posts"]
     contentDir = "content/cn"
     languageName = "Chinese"
     weight = 2
+  [languages.id]
+    contentDir = "content/id"
+    languageName = "Indonesia"
+    weight = 3
 ```
 
-Then your posts files should be put into `content/en` or `content/cn`.
+Then your posts files should be put into `content/en` , `content/cn` or `content/id` for Indonesian language.
 
-### Footer
-
-```
-[[params.socials]]
-name = "About Me"
-link = "https://joway.io"
-[[params.socials]]
-name = "Github"
-link = "https://github.com/joway"
-```
-
-### Extra Head
-
-```
-[params]
-extraHead = '<script src="xxxx.js"></script>'
-```
-
-### Extra CSS files
-
-```
-[params]
-extraCSSFiles = ["css/foo.css", "css/bar.css"]
-```
-
-### Twitter Cards
-
-Add the following setting:
-
-```
-[params]
-twitterCards = true
-```
-
-In a post's front matter, include a keyword `images` with a value of a list of
-URLs of images that will be used for Twitter Cards.
-
-### Insert content on every post
-
-```
-[params]
-postHeaderContent = ""
-postFooterContent = "<br/><br/><p>Subscribe：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
-```
-
-### Example
-
-```
-baseURL = "https://blog.joway.io/"
-languageCode = "en-us"
-title = "Joway's Blog"
-theme = "yinyang"
-DefaultContentLanguage = "cn"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    guessSyntax = true
-    noClasses = true
-    style = "bw"
-    tabWidth = 2
-
-[author]
-  name = "Joway"
-  homepage = "https://joway.io/"
-
-[languages]
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
-    weight = 1
-  [languages.cn]
-    contentDir = "content/cn"
-    languageName = "Chinese"
-    weight = 2
-
-[params]
-mainSections = ["posts"]
-headTitle = "Joway Wang"
-disqus = "joway" # disqus account name
-extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
-[[params.socials]]
-name = "About Me"
-link = "https://joway.io"
-[[params.socials]]
-name = "Github"
-link = "https://github.com/joway"
-postHeaderContent = ""
-postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
-# extraCSSFiles = ["css/foo.css", "css/bar.css"]
-extraCSSFiles = []
-```
+> ### See a more complete configuration in the yinyang base repository [Configuration](https://github.com/joway/hugo-theme-yinyang/blob/master/README.md)
