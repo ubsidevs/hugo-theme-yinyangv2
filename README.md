@@ -13,7 +13,8 @@
 
 ## 📷 Screenshots 
 
-![image](https://user-images.githubusercontent.com/62005221/150907642-aac4cfae-0f92-4ecc-93d5-fbff01a903e8.png)
+![image](https://user-images.githubusercontent.com/62005221/150907642-aac4cfae-0f92-4ecc-93d5-fbff01a903e8.png)  
+![image](https://user-images.githubusercontent.com/62005221/150908332-a22f76bb-4fc4-4ed2-8918-98656be97825.png)
 
 ## ⚙ Installation
 
