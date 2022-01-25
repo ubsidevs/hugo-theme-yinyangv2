@@ -29,18 +29,7 @@ Change `config.toml`:
 theme = "yinyangv2"
 ```
 
-## Configuration
-
-### Head Title
-
-```
-[params]
-headTitle = "Yinyang V2"
-```
-
-If there is no `headTitle` in params, use `.Site.Author.name`.
-
-### Main section
+## 🔧 Configuration
 
 Set your main section:
 
