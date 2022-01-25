@@ -1,8 +1,8 @@
 # 👋 YinYang V2 - Hugo Fast Theme
 
-Name    : YinYang V2  
-Based   : [YinYang Theme](https://github.com/joway/hugo-theme-yinyang)  
-Demo V2 : [Demo](https://bucin-kode.github.io)  
+- Name    : YinYang V2  
+- Based   : [YinYang Theme](https://github.com/joway/hugo-theme-yinyang)  
+- Demo V2 : [Demo](https://bucin-kode.github.io) ub.io)  
 
 ## 🔎 Feature in V2 Version
 
@@ -13,9 +13,11 @@ Demo V2 : [Demo](https://bucin-kode.github.io)
 
 ## 📷 Screenshots
 
-![Screnshoot Home Page Yinyang V2 from Smartphone]()  
+![](![image](https://user-images.githubusercontent.com/62005221/150907560-a00aef6c-f7bb-4cdb-8731-711cf76fe081.png)
+)  
 
-![Screnshoot Home Page Yinyang V2 from Tab]()
+![](![image](https://user-images.githubusercontent.com/62005221/150907642-aac4cfae-0f92-4ecc-93d5-fbff01a903e8.png)
+)
 
 ## ⚙ Installation
 
